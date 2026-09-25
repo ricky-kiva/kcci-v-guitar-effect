@@ -1,0 +1,41 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.444061",
+   "Default View_TopLeft":"-234,158",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:24.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 3 -x 810 -y 60 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 3 -x 810 -y 90 -defaultsOSRD
+preplace port IIC_1_0 -pg 1 -lvl 3 -x 810 -y 120 -defaultsOSRD
+preplace port port-id_BCLK -pg 1 -lvl 3 -x 810 -y 300 -defaultsOSRD
+preplace port port-id_PBLRC -pg 1 -lvl 3 -x 810 -y 360 -defaultsOSRD
+preplace port port-id_PBDAT -pg 1 -lvl 3 -x 810 -y 390 -defaultsOSRD
+preplace port port-id_RECDAT -pg 1 -lvl 0 -x 0 -y 380 -defaultsOSRD
+preplace port port-id_RECLRC -pg 1 -lvl 3 -x 810 -y 330 -defaultsOSRD
+preplace port port-id_MCLK -pg 1 -lvl 3 -x 810 -y 260 -defaultsOSRD
+preplace portBus MUTE -pg 1 -lvl 3 -x 810 -y 420 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 590 -y 130 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 210 -y 450 -defaultsOSRD
+preplace inst rst_clk_wiz_0_12M -pg 1 -lvl 1 -x 210 -y 630 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x 210 -y 150 -defaultsOSRD
+preplace inst i2s_codec_loopback_0 -pg 1 -lvl 2 -x 590 -y 360 -defaultsOSRD
+preplace netloc clk_wiz_0_locked 1 0 2 30 520 380
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 3 20 250 NJ 250 780
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 30 50 390 10 780
+preplace netloc clk_wiz_0_clk_out1 1 0 3 40 370 380 260 NJ
+preplace netloc i2s_codec_loopback_0_codec_bclk 1 2 1 790J 300n
+preplace netloc i2s_codec_loopback_0_codec_reclrc 1 2 1 780J 330n
+preplace netloc i2s_codec_loopback_0_codec_pblrc 1 2 1 NJ 360
+preplace netloc i2s_codec_loopback_0_codec_pbdat 1 2 1 790J 380n
+preplace netloc i2s_codec_loopback_0_codec_mute 1 2 1 780J 400n
+preplace netloc RECDAT_1 1 0 2 NJ 380 NJ
+preplace netloc rst_clk_wiz_0_12M_peripheral_aresetn 1 1 1 390 360n
+preplace netloc processing_system7_0_DDR 1 2 1 790J 60n
+preplace netloc processing_system7_0_FIXED_IO 1 2 1 NJ 90
+preplace netloc processing_system7_0_IIC_1 1 2 1 790J 110n
+levelinfo -pg 1 0 210 590 810
+pagesize -pg 1 -db -bbox -sgen -110 0 930 730
+"
+}
+0
